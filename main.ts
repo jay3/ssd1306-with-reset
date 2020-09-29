@@ -297,7 +297,7 @@ namespace ssd1306 {
     //% width.defl=128
     //% height.defl=64
     //% weight=9
-    export function init(width: number, height: number, reset: DigitalPin, chipAddr: number) {
+    export function init(width: number, height: number, reset: DigitalPin = null, chipAddr: number = 0x3D) {
         chipAddress = chipAddr
         if(reset != null)
         {
