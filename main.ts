@@ -293,7 +293,7 @@ namespace ssd1306 {
         drawLine(x0, y0, x0, y1)
         drawLine(x1, y0, x1, y1)
     }
-    //% block="initialize OLED with width $width height $height"
+    //% block="initialize OLED at i2caddress $chipAddr with width $width height $height and reset $reset"
     //% width.defl=128
     //% height.defl=64
     //% weight=9
