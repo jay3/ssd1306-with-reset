@@ -146,7 +146,7 @@ namespace ssd1306 {
     //% block="show (without newline) string $str"
     //% weight=6
     export function writeString(str: string) {
-        for (let i = 0; i < str.length(); i++) {
+        for (let i = 0; i < str.length; i++) {
             if (charX > displayWidth - 6) {
                 newLine()
             }
